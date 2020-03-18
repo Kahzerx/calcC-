@@ -35,7 +35,7 @@ namespace Calculadora
             }
         }
 
-        private void suma(object sender, EventArgs e)
+        private void operationPressed(object sender, EventArgs e)
         {
             Button button = (Button)sender;
             operation = button.Text;
